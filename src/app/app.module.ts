@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Reto33Component } from './retos/reto-33/reto-33.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Reto33Component
   ],
   imports: [
     BrowserModule,
